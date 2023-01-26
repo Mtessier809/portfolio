@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Daily Checks</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">My Projects</a></li>
+							<li><a href="about.html">About Me</a></li>
+							<li><a href="resume.html">My Resume</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://github.com/Mtessier809" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                            <li><a href="https://www.linkedin.com/in/mathis-tessier/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<h1>Process Daily<br />
+									Checks</h1>
+								</header>
+                                <div class="image main"><img src="images/table.png" alt="" /></div>
+                                
+
+                                <h2>Overview</h2>
+								<p>
+                                    This is an internship project I had where I needed to retreive process data from client databases
+                                    and send daily automated emails. Each client received their own email with a table that included 
+                                    all the process names and statuses on whether they were successful or not. 
+								</p>
+                                <h4>Current Issue</h3>
+                                <p>
+                                    Our company had no way to track the statuses of processes for each client database. Because of this 
+                                    it was very difficult to pinpoint where something went wrong. The only way to do so was to look 
+                                    inside of the database and manually look for the problem. 
+                                </p>
+                                <h4>Project Outcome</h3>
+                                <p>
+                                    The daily checks queried all the new data entered into the databases each day and sent a nicely formatted 
+                                    table with all the process names and statuses. This helped pinpoint where issues were occurring and eliminated
+                                    the need to manually check in databases. 
+                                </p>
+
+								<h2>Technologies used</h2>
+								<ul>
+									<li>Lambdas</li>
+                                    <li>DynamoDB</li>
+                                    <li>Simple Email Services</li>
+                                    <li>Secrets Manager</li>
+                                    <li>CloudWatch Triggers</li>
+                                    <li>Relational Database Services</li>
+								</ul>
+
+								<h2>what I Learned</h2>
+								<ul>
+									<li>How to use several AWS services</li>
+									<li>How to program algorithms in python</li>
+                                    <li>How to query and manipulate data</li>
+								</ul>
+							</section>
+
+					</div>
+
+				<!-- Copyright -->
+					<div id="copyright">
+					</div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
